@@ -22,4 +22,5 @@ Este repositório é dedicado aos estudos realizados no curso de FullStack JavaS
 ## Autor
 
 Eduardo da Silva Soares
+
 https://www.linkedin.com/in/eduardo-da-silva-soares/
