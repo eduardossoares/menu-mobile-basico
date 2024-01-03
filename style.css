@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif ;
+}
+
+.menu-mobile {
+    position: absolute;
+    left: -100%;
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    transition-duration: 150ms;
+}
+
+.menu-mobile.open {
+    left: 0%;
+}
+
+.menu-mobile ul {
+    list-style: none;
+    padding: 20px;
+}
+
+.menu-mobile ul li {
+    margin-bottom: 10px;
+    padding: 15px
+}
+
+.button-menu {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.button-menu button {
+    padding: 12px;
+    background-color: #000;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 500ms;
+}
+
+.button-menu button:hover {
+    cursor: pointer;
+    padding: 12.2px;
+    font-size: 14.2px;
+}
